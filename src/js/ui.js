@@ -89,14 +89,14 @@ class Ui {
   setUiDefaultSelectionStyle(option) {
     return snippet.extend(
       {
-        applyCropSelectionStyle: true,
-        applyGroupSelectionStyle: true,
+        applyCropSelectionStyle: false,
+        applyGroupSelectionStyle: false,
         selectionStyle: {
           cornerStyle: 'circle',
-          cornerSize: 16,
+          cornerSize: 14,
           cornerColor: '#fff',
           cornerStrokeColor: '#fff',
-          transparentCorners: false,
+          transparentCorners: true,
           lineWidth: 2,
           borderColor: '#fff',
         },
